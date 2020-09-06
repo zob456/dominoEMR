@@ -3,14 +3,14 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '10.0'
 
-target 'test' do
+target 'dominoEMR' do
   config = use_native_modules!
 
   use_react_native!(:path => config["reactNativePath"])
 
-  target 'testTests' do
+  target 'dominoEMRTests' do
     inherit! :complete
-    # Pods for testing
+    # Pods for dominoEMRing
   end
 
   # Enables Flipper.
@@ -23,11 +23,11 @@ target 'test' do
   end
 end
 
-target 'test-tvOS' do
-  # Pods for test-tvOS
+target 'dominoEMR-tvOS' do
+  # Pods for dominoEMR-tvOS
 
-  target 'test-tvOSTests' do
+  target 'dominoEMR-tvOSTests' do
     inherit! :search_paths
-    # Pods for testing
+    # Pods for dominoEMRing
   end
 end

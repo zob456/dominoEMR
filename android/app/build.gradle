@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.test"
+        applicationId "com.dominoemr"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

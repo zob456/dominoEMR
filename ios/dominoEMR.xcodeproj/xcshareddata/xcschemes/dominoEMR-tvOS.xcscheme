@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-               BuildableName = "test-tvOS.app"
-               BlueprintName = "test-tvOS"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "dominoEMR-tvOS.app"
+               BlueprintName = "dominoEMR-tvOS"
+               ReferencedContainer = "container:dominoEMR.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2D02E48F1E0B4A5D006451C7"
-               BuildableName = "test-tvOSTests.xctest"
-               BlueprintName = "test-tvOSTests"
-               ReferencedContainer = "container:test.xcodeproj">
+               BuildableName = "dominoEMR-tvOSTests.xcdominoEMR"
+               BlueprintName = "dominoEMR-tvOSTests"
+               ReferencedContainer = "container:dominoEMR.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "test-tvOS.app"
-            BlueprintName = "test-tvOS"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "dominoEMR-tvOS.app"
+            BlueprintName = "dominoEMR-tvOS"
+            ReferencedContainer = "container:dominoEMR.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "2D02E47A1E0B4A5D006451C7"
-            BuildableName = "test-tvOS.app"
-            BlueprintName = "test-tvOS"
-            ReferencedContainer = "container:test.xcodeproj">
+            BuildableName = "dominoEMR-tvOS.app"
+            BlueprintName = "dominoEMR-tvOS"
+            ReferencedContainer = "container:dominoEMR.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

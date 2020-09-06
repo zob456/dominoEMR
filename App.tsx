@@ -1,7 +1,7 @@
 import React, { FC } from 'react';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
-import { Text, View, AppRegistry } from 'react-native';
+import { Text, View } from 'react-native';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 
 import { appStyles } from './styles/index'
@@ -24,8 +24,6 @@ const App: FC = () => {
     </ApolloProvider>
   );
 };
-
-// styles
 
 
 export default App;
