@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "678346992534",
+    "firebase_url": "https://dominodb-630b8.firebaseio.com",
+    "project_id": "dominodb-630b8",
+    "storage_bucket": "dominodb-630b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678346992534:android:7df1e6699ace9406074bb7",
+        "android_client_info": {
+          "package_name": "com.zob456.dominoEMR"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "678346992534-4cgg4m5a2hsjvlqhcsqd8d55akcq4l7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkrqZ04m-tWUCZHP6zwaHsJoDqYA5Zpbo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "678346992534-4cgg4m5a2hsjvlqhcsqd8d55akcq4l7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
