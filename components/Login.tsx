@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { FirebaseAuthTypes } from '@react-native-firebase/auth';
 import {
     ScrollView,
     Text,

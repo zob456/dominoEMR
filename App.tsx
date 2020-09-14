@@ -3,15 +3,21 @@ import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 // import { createStackNavigator } from '@react-navigation/stack'
 import { Text, View } from 'react-native';
-import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import { ApolloClient, InMemoryCache, ApolloProvider, HttpLink } from '@apollo/client';
 import { firebaseAuth } from './firebase/config';
 
 import { appStyles } from './styles/index'
 
 import Login from './components/Login'
+import Schedule from './components/Schedule'
 
 
 const App = () => {
+
+
+  const link = new HttpLink({
+    uri: `http://10.0.2.2:5000/`,
+  });
 
   const [initializing, setInitializing] = useState(true);
   const [user, setUser] = useState(null);
@@ -26,6 +32,7 @@ const App = () => {
   }
 
   const client = new ApolloClient({
+    link: link,
     cache: new InMemoryCache()
   });
 
@@ -48,7 +55,7 @@ const App = () => {
     <ApolloProvider client={client}>
       <NavigationContainer>
         <View style={appStyles.root}>
-          <Text>Your are logged in</Text>
+          <Schedule />
         </View>
       </NavigationContainer>
     </ApolloProvider>
