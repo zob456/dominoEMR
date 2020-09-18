@@ -22,7 +22,7 @@ DerivedData
 *.xcuserstate
 
 # Build folders
-android/
+android
 ios/
 _test_/
 firebase/
