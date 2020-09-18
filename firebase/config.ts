@@ -9,7 +9,7 @@ import {
     projectId,
     storageBucket,
     messagingSenderId,
-    appId
+    appId,
 }
     //@ts-ignore
     from '@env'

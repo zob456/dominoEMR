@@ -21,6 +21,14 @@ DerivedData
 *.ipa
 *.xcuserstate
 
+# Build folders
+android/
+ios/
+_test_/
+firebase/
+lib/
+
+
 # Android/IntelliJ
 #
 build/

@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 // import { createStackNavigator } from '@react-navigation/stack'
-import { Text, View } from 'react-native';
+import { View } from 'react-native';
 import { ApolloClient, InMemoryCache, ApolloProvider, HttpLink } from '@apollo/client';
 import { firebaseAuth } from './firebase/config';
 
@@ -10,9 +11,11 @@ import { appStyles } from './styles/index'
 
 import Login from './components/Login'
 import Schedule from './components/Schedule'
+import Medications from './components/Medications'
 
 
 const App = () => {
+  const Tab = createBottomTabNavigator();
 
 
   const link = new HttpLink({
@@ -54,9 +57,17 @@ const App = () => {
   return (
     <ApolloProvider client={client}>
       <NavigationContainer>
-        <View style={appStyles.root}>
-          <Schedule />
-        </View>
+        <Tab.Navigator
+          tabBarOptions={{
+            activeTintColor: 'tomato',
+            inactiveTintColor: 'gray',
+            tabStyle: {
+              height: 30,
+            }
+          }}>
+          <Tab.Screen name="Appointments" component={Schedule} />
+          <Tab.Screen name="Medications" component={Medications} />
+        </Tab.Navigator>
       </NavigationContainer>
     </ApolloProvider>
   );

@@ -1,18 +1,13 @@
 import { StyleSheet } from 'react-native'
 
-const appStyles = StyleSheet.create({
-    root: {
+const scheduleStyles = StyleSheet.create({
+    container: {
         padding: 10,
+        alignItems: 'flex-end',
         backgroundColor: '#363636',
         height: '100%',
         width: '100%',
     },
-
-    greeting: {
-        color: '#999',
-        fontWeight: 'bold'
-    }
 });
 
-export default appStyles
-
+export default scheduleStyles
